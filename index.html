@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cultural Heritage Tour Companion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">Cultural Heritage Tour</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" onclick="navigate('home'); return false;">Home</a></li>
+          <li><a href="#" onclick="navigate('explore'); return false;">Explore</a></li>
+          <li><a href="#" onclick="navigate('profile'); return false;">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="app-content">
+    <!-- Homepage content inserted by JS -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Cultural Heritage Tour Companion. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIsndsyS8JLDwTjEku86EKkk55BK8wzyE&callback=initMap" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
